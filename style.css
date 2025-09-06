@@ -1,0 +1,168 @@
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    justify-content: space-between;
+}
+
+.header .left-link {
+    color: white;
+    font-weight: 700;
+}
+
+.header .right-link {
+    display: flex;
+
+    margin-right: 200px;
+    color: #babfbb
+    
+}
+
+.container {
+    display: flex;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+
+.hero-content {
+
+}
+
+.hero-content h1 {
+    color: white;
+}
+
+.hero-content p {
+    color: #babfbb;
+}
+
+.hero-image {
+    background-color: grey;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.item-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item img {
+    border: 3px solid blue;
+}
+
+.text {
+    max-width: 10ch;
+}
+
+.info-section h2 {
+}
+
+
+.quote-section {
+    background-color: #c3c5c8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 400px;
+}
+
+.quote-section h1 {
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote-section p {
+    align-self: end;
+    margin-right: 0;
+    font-weight: 700;
+}
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0px;
+
+}
+
+.signup-section .box {
+    background-color: blue;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.box button {
+    margin: auto;
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+    padding: 32px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr auto;
+}
+
+button {
+    background-color: #3882f6;
+    padding: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-weight: 800;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+}
